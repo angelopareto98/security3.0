@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author anghack
  */
 @RestController
-@RequestMapping(path = "/api/v2/auth")
+@RequestMapping(path = "/api/v1/auth")
 @RequiredArgsConstructor
 public class AuthenticationController {
     private final AuthenticationService service;
