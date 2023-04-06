@@ -1,5 +1,8 @@
 package com.anghack.demo.controller.auth;
 
+import com.anghack.demo.entity.response.AuthenticationRequest;
+import com.anghack.demo.entity.response.AuthenticationResponse;
+import com.anghack.demo.entity.response.RegisterRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
