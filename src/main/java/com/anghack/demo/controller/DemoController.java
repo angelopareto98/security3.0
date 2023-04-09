@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author anghack
  */
 @RestController
-@RequestMapping(path = "/api/v1/demo")
+@RequestMapping("/api/v1/demo")
 public class DemoController {
     
     @GetMapping("/")
